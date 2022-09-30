@@ -22,6 +22,8 @@
     <string name="loginLblUserName">USUARIO:</string>
     <string name="btn_Login">INICIAR</string>
     <string name="lblLogInPassWord">CONTRASEÑA:</string>
+    <string name="lbl_Title">INICIO DE SESION IU DIGITAL</string>
+
 
     //Splash
     <string name="splashLblLoading">Espere un momento por favor</string>
