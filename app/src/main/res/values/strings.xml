@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Administración de Usuarios</string>
+    <string name="hint_contrasena">Contraseña:</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Correo electronico:</string>
+    <string name="btn_guarda">Guardar Usuario</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="btnSalir">Salir</string>
+
+    //Strings de la Vista de consulta de usurio
+
+    <string name="lblNombre">Nombre:</string>
+    <string name="lblContrasena">Contraseña:</string>
+    <string name="lblTelefono">Teléfono:</string>
+    <string name="lblCorreo">Correo electrónico:</string>
+
+
+    //Strings de la vista de Login
+    <string name="imagenLogin">imagenLogin</string>
+    <string name="loginBtnRegister">REGISTRAR</string>
+    <string name="loginLblUserName">USUARIO:</string>
+    <string name="btn_Login">INICIAR</string>
+    <string name="lblLogInPassWord">CONTRASEÑA:</string>
+
+    //Splash
+    <string name="splashLblLoading">Espere un momento por favor</string>
+    <string name="splashImage">splashImage</string>
+</resources>
