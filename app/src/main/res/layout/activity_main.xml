@@ -24,7 +24,6 @@
             android:layout_weight=".9" />
 
 
-
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/favNuevo"
             android:layout_width="wrap_content"
@@ -35,27 +34,15 @@
             android:clickable="true"
             android:focusable="true"
             android:src="@drawable/ic_add"
-            app:backgroundTint="@color/design_default_color_primary" />
-
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btnSalir"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="bottom|end"
-            android:layout_marginRight="10dp"
-            android:layout_weight=".1"
-            android:clickable="true"
-            android:focusable="true"
-            android:src="@drawable/ic_add"
-            app:backgroundTint="@color/red"/>
+            app:backgroundTint="@color/colorPrimary" />
 
         <Button
-            android:id="@+id/btnSalir2"
+            android:id="@+id/btnSalir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="@string/btnSalir"
-            android:background="@color/colorAccent"/>
+            android:textColor="#FAF7F7" />
 
     </LinearLayout>
 </LinearLayout>

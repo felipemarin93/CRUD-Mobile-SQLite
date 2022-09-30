@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     ArrayList<Contactos> listaArrayContactos;
     FloatingActionButton fabNuevo;
     ListaContactosAdapter adapter;
-    FloatingActionButton btnSalir;
+    Button btnSalir;
 
 
     @Override

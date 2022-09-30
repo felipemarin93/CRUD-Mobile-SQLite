@@ -34,17 +34,17 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453"
+        app:layout_constraintVertical_bias="0.431"
         tools:ignore="DuplicateIds,LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="110dp"
-        android:layout_height="65dp"
-        android:background="@color/orange"
+        android:layout_width="96dp"
+        android:layout_height="49dp"
+        android:background="@color/colorPrimary"
         android:text="@string/btn_Login"
         android:textColor="@color/ic_launcher_background"
         android:textSize="18sp"
@@ -53,7 +53,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71"
+        app:layout_constraintVertical_bias="0.717"
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <TextView
@@ -81,10 +81,10 @@
         android:inputType="numberPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538"
+        app:layout_constraintVertical_bias="0.527"
         tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <ImageView
@@ -97,7 +97,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.145"
+        app:layout_constraintVertical_bias="0.028"
         app:srcCompat="@drawable/imagenlogin" />
 
 

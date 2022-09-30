@@ -23,8 +23,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:labelFor="@+id/viewNombre"
+            android:minHeight="48dp"
             android:textSize="18sp" />
 
         <TextView
@@ -40,6 +42,7 @@
             android:ems="10"
             android:inputType="textPassword"
             android:labelFor="@+id/viewContraseña"
+            android:minHeight="48dp"
             android:textSize="18sp" />
 
         <TextView
@@ -55,6 +58,7 @@
             android:ems="10"
             android:inputType="phone"
             android:labelFor="@+id/viewTelefono"
+            android:minHeight="48dp"
             android:textSize="18sp" />
 
         <TextView
@@ -68,16 +72,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             android:labelFor="@+id/viewCorreo"
+            android:minHeight="48dp"
             android:textSize="18sp" />
 
         <Button
             android:id="@+id/btnGuarda"
-            android:layout_width="wrap_content"
+            android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:background="@color/colorPrimary"
             android:text="@string/btn_guarda"
+            android:textColor="#F8F4F4"
             android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>
