@@ -34,7 +34,8 @@
             android:clickable="true"
             android:focusable="true"
             android:src="@drawable/ic_add"
-            app:backgroundTint="@color/colorPrimary" />
+            app:backgroundTint="@color/colorPrimary"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnSalir"
