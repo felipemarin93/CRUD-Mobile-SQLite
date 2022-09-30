@@ -23,9 +23,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="@string/hint_nombreNuevo"
+            android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:labelFor="@+id/viewNombre"
-            android:textSize="18sp" />
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/viewContraseña"
@@ -37,10 +41,14 @@
             android:id="@+id/txtContrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/hint_contrasenaNueva"
             android:inputType="textPassword"
             android:labelFor="@+id/viewContraseña"
-            android:textSize="18sp" />
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/viewTelefono"
@@ -52,10 +60,14 @@
             android:id="@+id/txtTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/hint_telefonoNuevo"
             android:inputType="phone"
             android:labelFor="@+id/viewTelefono"
-            android:textSize="18sp" />
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/viewCorreo"
@@ -68,16 +80,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="@string/hint_correoNuevo"
+            android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             android:labelFor="@+id/viewCorreo"
-            android:textSize="18sp" />
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
         <Button
             android:id="@+id/btnGuarda"
-            android:layout_width="wrap_content"
+            android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:background="@color/colorPrimary"
             android:text="@string/btn_guarda"
+            android:textColor="#F8F4F4"
             android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>

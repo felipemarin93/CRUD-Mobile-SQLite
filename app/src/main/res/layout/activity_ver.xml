@@ -24,12 +24,14 @@
             android:id="@+id/txtNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/hint_nombreNuevo"
             android:inputType="textPersonName"
             android:labelFor="@+id/viewNombre"
             android:minHeight="48dp"
             android:textSize="18sp"
-            android:autofillHints="" />
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:id="@+id/viewContraseña"
@@ -41,13 +43,15 @@
             android:id="@+id/txtContrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/hint_contrasenaNueva"
+            android:importantForAutofill="no"
             android:inputType="textPassword"
             android:labelFor="@+id/viewNombre"
             android:minHeight="48dp"
             android:textSize="18sp"
-            android:importantForAutofill="no"
-            android:autofillHints="" />
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/viewTelefono"
@@ -59,12 +63,14 @@
             android:id="@+id/txtTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/hint_telefonoNuevo"
             android:inputType="phone"
             android:labelFor="@+id/viewTelefono"
             android:minHeight="48dp"
             android:textSize="18sp"
-            android:autofillHints="" />
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/viewCorreo"
@@ -76,18 +82,23 @@
             android:id="@+id/txtCorreoElectronico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/hint_correoNuevo"
             android:inputType="textEmailAddress"
             android:labelFor="@+id/viewCorreo"
+            android:minHeight="48dp"
             android:textSize="18sp"
-            android:autofillHints="" />
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
         <Button
             android:id="@+id/btnGuarda"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="156dp"
+            android:layout_height="64dp"
             android:layout_gravity="center"
-            android:text="@string/btn_guarda" />
+            android:background="@color/colorPrimary"
+            android:text="@string/btn_guarda"
+            android:textColor="#FFFFFF" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabEditar"
@@ -96,7 +107,9 @@
             android:layout_gravity="bottom|end"
             android:clickable="true"
             android:src="@drawable/ic_edit"
-            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+            android:focusable="true"
+            />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabEliminar"
@@ -105,23 +118,10 @@
             android:layout_gravity="bottom|end"
             android:clickable="true"
             android:src="@drawable/ic_delete"
-            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+            android:focusable="true"
+         />
 
     </LinearLayout>
-<!--
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomAppBar"
-        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        tools:ignore="BottomAppBar">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_edit" />
-
-    </com.google.android.material.bottomappbar.BottomAppBar>-->
 </LinearLayout>

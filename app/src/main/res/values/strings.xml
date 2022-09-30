@@ -6,7 +6,7 @@
     <string name="hint_correo_electronico">Correo electronico:</string>
     <string name="btn_guarda">Guardar Usuario</string>
     <string name="menu_nuevo">Nuevo registro</string>
-    <string name="btnSalir">Salir</string>
+    <string name="btnSalir">CERRAR SESION</string>
 
     //Strings de la Vista de consulta de usurio
 
@@ -22,8 +22,21 @@
     <string name="loginLblUserName">USUARIO:</string>
     <string name="btn_Login">INICIAR</string>
     <string name="lblLogInPassWord">CONTRASEÑA:</string>
+    <string name="lbl_Title">INICIO DE SESION IU DIGITAL</string>
+
 
     //Splash
     <string name="splashLblLoading">Espere un momento por favor</string>
     <string name="splashImage">splashImage</string>
+
+    //Nuevo usuario
+
+    <string name="hint_nombreNuevo">Ingresa tu nombre</string>
+    <string name="hint_telefonoNuevo">Ingresa tu celular</string>
+    <string name="hint_correoNuevo">xxx@gmail.com</string>
+    <string name="hint_contrasenaNueva">******</string>
+
+    //Iconos
+    <string name="btnEliminar">btnEliminar</string>
+    <string name="btnEditar">btnEditar</string>
 </resources>
