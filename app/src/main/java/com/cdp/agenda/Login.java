@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (User.getText().toString().equals("administrator") && Pass.getText().toString().equals("1234"))
+                if (User.getText().toString().equals("administrator@gmail.com") || (User.getText().toString().equals("daniel.marin@gmail.com") || (User.getText().toString().equals("juan.arias@gmail.com")||(User.getText().toString().equals("duvan.botero@gmail.com") || (User.getText().toString().equals("prueba@gmail.com") && Pass.getText().toString().equals("1234"))))))
                 {
                     Toast.makeText(Login.this, "Inicio Satisfactorio", Toast.LENGTH_LONG).show();
                     new Handler().postDelayed(new Runnable() {
